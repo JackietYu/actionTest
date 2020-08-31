@@ -2,3 +2,7 @@
 import os
 
 print(os.environ['MY_HUB'])
+hub1 = os.getenv('MY_HUB')
+hub2 = os.environ.get('MY_HUB')
+print(hub1)
+print(hub2)
