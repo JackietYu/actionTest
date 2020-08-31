@@ -37,4 +37,4 @@ jobs:
       env:
         FIRST_NAME: Mona
         middle_name: The
-        Last_Name: Octocat
+        Last_Name: ${{ secrets.MY_HUB }}
