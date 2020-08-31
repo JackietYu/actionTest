@@ -30,4 +30,5 @@ jobs:
         python-version: 3.7
     - name: spider
       run: |
+        echo "##[set-env name=MY_HUB;]$(123)"
         python3 env.py
